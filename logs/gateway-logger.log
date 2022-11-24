@@ -1,0 +1,26 @@
+2022-11-24 18:12:06,655 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-11-24 18:12:07,372 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2022-11-24 18:12:07,491 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=16a6c63c-23c6-3fa9-8e54-b37ea24065ba
+2022-11-24 18:12:08,260 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8111 (http)
+2022-11-24 18:12:08,269 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8111"]
+2022-11-24 18:12:08,271 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-24 18:12:08,271 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-11-24 18:12:08,401 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-24 18:12:08,401 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1730 ms
+2022-11-24 18:12:08,611 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2022-11-24 18:12:08,612 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-24 18:12:08,627 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@166b11e
+2022-11-24 18:12:10,037 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2022-11-24 18:12:10,568 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@517fbf62, org.springframework.security.web.context.SecurityContextPersistenceFilter@2404abe2, org.springframework.security.web.header.HeaderWriterFilter@43755e2f, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@21a6a494, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@113eed88, org.springframework.security.web.authentication.logout.LogoutFilter@4c030fe1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bc2bb58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@778c2e7c, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@37fef327, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@2cd3fc29, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65db548, org.springframework.security.web.session.SessionManagementFilter@71139e77, org.springframework.security.web.access.ExceptionTranslationFilter@1f9a7684, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@534762ed]
+2022-11-24 18:12:10,596 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [main] No spring.application.name found, defaulting to 'application'
+2022-11-24 18:12:10,597 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2022-11-24 18:12:10,597 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-24 18:12:10,742 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-24 18:12:11,497 INFO org.springframework.cloud.netflix.zuul.ZuulFilterInitializer [main] Starting filter initializer
+2022-11-24 18:12:11,511 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-11-24 18:12:11,541 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8111"]
+2022-11-24 18:12:11,567 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8111 (http) with context path ''
+2022-11-24 18:12:12,746 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2022-11-24 18:12:12,762 INFO org.springframework.boot.StartupInfoLogger [main] Started GateWayApplication in 9.024 seconds (JVM running for 10.008)
+2022-11-24 18:12:17,665 INFO org.springframework.cloud.netflix.zuul.ZuulFilterInitializer [SpringContextShutdownHook] Stopping filter initializer
+2022-11-24 18:12:17,668 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

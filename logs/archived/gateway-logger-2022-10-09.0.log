@@ -1,0 +1,25 @@
+2022-10-09 12:05:36,590 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-10-09 12:05:37,599 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2022-10-09 12:05:37,742 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=62964288-6d00-33a0-a9da-010a1b57a6f9
+2022-10-09 12:05:38,298 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8111 (http)
+2022-10-09 12:05:38,306 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8111"]
+2022-10-09 12:05:38,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-09 12:05:38,308 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-10-09 12:05:38,454 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-09 12:05:38,455 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1847 ms
+2022-10-09 12:05:38,599 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2022-10-09 12:05:38,599 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 12:05:38,609 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7971c2a9
+2022-10-09 12:05:40,574 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7757025d, org.springframework.security.web.context.SecurityContextPersistenceFilter@516195cf, org.springframework.security.web.header.HeaderWriterFilter@71b26880, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@7a3f08b6, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@4c635edc, org.springframework.security.web.authentication.logout.LogoutFilter@3957d88b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26ca12a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@537ca28e, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@632cf7d3, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@51b87df7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68fc9167, org.springframework.security.web.session.SessionManagementFilter@10bf1ec9, org.springframework.security.web.access.ExceptionTranslationFilter@7f1f60a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c56644f]
+2022-10-09 12:05:40,607 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [main] No spring.application.name found, defaulting to 'application'
+2022-10-09 12:05:40,608 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2022-10-09 12:05:40,608 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 12:05:40,819 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-09 12:05:41,868 INFO org.springframework.cloud.netflix.zuul.ZuulFilterInitializer [main] Starting filter initializer
+2022-10-09 12:05:41,882 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-10-09 12:05:41,948 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8111"]
+2022-10-09 12:05:41,970 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8111 (http) with context path ''
+2022-10-09 12:05:42,265 INFO org.springframework.boot.StartupInfoLogger [main] Started GateWayApplication in 6.984 seconds (JVM running for 8.411)
+2022-10-09 12:05:42,707 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-192.168.91.228] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-09 12:05:42,707 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-192.168.91.228] Initializing Servlet 'dispatcherServlet'
+2022-10-09 12:05:42,719 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-192.168.91.228] Completed initialization in 12 ms
